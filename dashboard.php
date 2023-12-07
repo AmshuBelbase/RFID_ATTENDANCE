@@ -99,6 +99,9 @@ $rfid = $_SESSION['rfid'];
         async function getCountLab() {
             try {
                 await countLab();
+                if (Object.keys(dynamicLabs).length <= 0) {
+                    document.getElementById("waitmsg").innerHTML = "No Data to Show 👾";
+                }
                 // for (const key in dynamicLabs) {
                 //     if (dynamicLabs.hasOwnProperty(key)) {
                 //         const value = dynamicLabs[key];
