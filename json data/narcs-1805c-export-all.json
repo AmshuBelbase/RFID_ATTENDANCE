@@ -1,0 +1,748 @@
+{
+  "rfid": {
+    "labs": {
+      "2": {
+        "labname": "HOSTEL D 112",
+        "labnum": "2"
+      },
+      "604": {
+        "labname": "ROBOCON",
+        "labnum": "604"
+      }
+    },
+    "logs": {
+      "604": {
+        "6718533": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6718533,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6718579": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6718579,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6718663": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6718663,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6718715": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6718715,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6719899": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6719899,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6719968": {
+          "2178150101": {
+            "rf": "2178150101",
+            "timestamp": 6719968,
+            "username": "AMSHU KIRAN BELBASE",
+            "userreg": "RA2211033010195"
+          }
+        },
+        "6720004": {
+          "2178150101": {
+            "rf": "2178150101",
+            "timestamp": 6720004,
+            "username": "AMSHU KIRAN BELBASE",
+            "userreg": "RA2211033010195"
+          }
+        },
+        "6720061": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6720061,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6720152": {
+          "2178150101": {
+            "rf": "2178150101",
+            "timestamp": 6720152,
+            "username": "AMSHU KIRAN BELBASE",
+            "userreg": "RA2211033010195"
+          }
+        },
+        "6720224": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6720224,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6776458": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6776458,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6776787": {
+          "2178150101": {
+            "rf": "2178150101",
+            "timestamp": 6776787,
+            "username": "AMSHU KIRAN BELBASE",
+            "userreg": "RA2211033010195"
+          }
+        },
+        "6778574": {
+          "2178150101": {
+            "rf": "2178150101",
+            "timestamp": 6778574,
+            "username": "AMSHU KIRAN BELBASE",
+            "userreg": "RA2211033010195"
+          }
+        },
+        "6778690": {
+          "2178150101": {
+            "rf": "2178150101",
+            "timestamp": 6778690,
+            "username": "AMSHU KIRAN BELBASE",
+            "userreg": "RA2211033010195"
+          }
+        },
+        "6778820": {
+          "2178150101": {
+            "rf": "2178150101",
+            "timestamp": 6778820,
+            "username": "AMSHU KIRAN BELBASE",
+            "userreg": "RA2211033010195"
+          }
+        },
+        "6778866": {
+          "2178150101": {
+            "rf": "2178150101",
+            "timestamp": 6778866,
+            "username": "AMSHU KIRAN BELBASE",
+            "userreg": "RA2211033010195"
+          }
+        },
+        "6852511": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6852511,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6865665": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6865665,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6865690": {
+          "579813993": {
+            "rf": "579813993",
+            "timestamp": 6865690,
+            "username": "Abuzer Ganjifrockwala",
+            "userreg": "RA2111018010028"
+          }
+        },
+        "6865874": {
+          "249224147101": {
+            "rf": "249224147101",
+            "timestamp": 6865874,
+            "username": "Diptayan Jash",
+            "userreg": "RA2211003010890"
+          }
+        },
+        "6870225": {
+          "579813993": {
+            "rf": "579813993",
+            "timestamp": 6870225,
+            "username": "Abuzer Ganjifrockwala",
+            "userreg": "RA2111018010028"
+          }
+        },
+        "6870904": {
+          "579813993": {
+            "rf": "579813993",
+            "timestamp": 6870904,
+            "username": "Abuzer Ganjifrockwala",
+            "userreg": "RA2111018010028"
+          }
+        },
+        "6871171": {
+          "57113140101": {
+            "rf": "57113140101",
+            "timestamp": 6871171,
+            "username": "Aarush Bhandari",
+            "userreg": "RA2211038010047"
+          }
+        },
+        "6871205": {
+          "579813993": {
+            "rf": "579813993",
+            "timestamp": 6871205,
+            "username": "Abuzer Ganjifrockwala",
+            "userreg": "RA2111018010028"
+          }
+        },
+        "6871571": {
+          "23316254108": {
+            "rf": "23316254108",
+            "timestamp": 6871571,
+            "username": "Smit Prajapati",
+            "userreg": "RA2311038010004"
+          }
+        },
+        "6871639": {
+          "23316254108": {
+            "rf": "23316254108",
+            "timestamp": 6871639,
+            "username": "Smit Prajapati",
+            "userreg": "RA2311038010004"
+          }
+        },
+        "6871786": {
+          "89240141101": {
+            "rf": "89240141101",
+            "timestamp": 6871786,
+            "username": "Mohammed Sadriwala ",
+            "userreg": "RA2211013010082"
+          }
+        },
+        "6871824": {
+          "18517915693": {
+            "rf": "18517915693",
+            "timestamp": 6871824,
+            "username": "Aryan Bali",
+            "userreg": "RA2111026010510"
+          }
+        },
+        "6871875": {
+          "18517915693": {
+            "rf": "18517915693",
+            "timestamp": 6871875,
+            "username": "Aryan Bali",
+            "userreg": "RA2111026010510"
+          }
+        }
+      }
+    },
+    "users": {
+      "916260439660": {
+        "address": "Mullai-D block SRM IST, Ktr",
+        "desig": "-",
+        "email": "ab8976@srmist.edu.in",
+        "password": "fdf8363eae115761021892309999ddd80d8b128f9784e1847cd75d6af90a918b",
+        "phone": "916260439660",
+        "rfid": "57113140101",
+        "username": "Aarush Bhandari",
+        "userreg": "RA2211038010047"
+      },
+      "916381334109": {
+        "address": "Chennai",
+        "desig": "-",
+        "email": "sujalp195@gmail.com",
+        "password": "5805503525c6c4272a14ab0a82cd06ff18f07c62b9ca478f595dfbc85df75330",
+        "phone": "916381334109",
+        "rfid": "-",
+        "username": "Sujal Paudel ",
+        "userreg": "RA2211030010313"
+      },
+      "917004849516": {
+        "address": "Room 412, Sannasi A, SRM Hostels, SRMIST",
+        "desig": "-",
+        "email": "vr8449@srmist.edu.in",
+        "password": "60b3e0015ee976b5d8f5d26f30d7c7d4f5112d1b159f3dbc01096e77c579f98d",
+        "phone": "917004849516",
+        "rfid": "-",
+        "username": "Vaibhav Raj ",
+        "userreg": "RA2211051010018"
+      },
+      "917019439758": {
+        "address": "sanaasi A hostel",
+        "desig": "-",
+        "email": "advaitsdev@gmail.com",
+        "password": "356b5adb93ed2dd4016f189ffa2b69e489fc19863c18b921ef91097880df56c9",
+        "phone": "917019439758",
+        "rfid": "-",
+        "username": "Advait Sahadev",
+        "userreg": "RA2211067010007"
+      },
+      "917025763886": {
+        "address": "A block 205, Abode Valley,Potheri",
+        "desig": "-",
+        "email": "ss8987@srmist.edu.in",
+        "password": "243f579c372149cc0a14fb589830d0b9e12debfd09104840a1ce88014ec04946",
+        "phone": "917025763886",
+        "rfid": "-",
+        "username": "Anand S A",
+        "userreg": "RA2111053010002"
+      },
+      "917223077332": {
+        "address": "Flat No. 402, 'd' Block, DCC Aishwarya Flats,",
+        "desig": "-",
+        "email": "ag2012@srmist.edu.in",
+        "password": "4c91ceae68bffe4235628bccae88f2e42608ec9a04a927f81a5b1b14129eabb6",
+        "phone": "917223077332",
+        "rfid": "-",
+        "username": "Ayush Goyal",
+        "userreg": "RA2111002010104"
+      },
+      "917286971004": {
+        "address": "307,Mullai, SRM University, potheri",
+        "desig": "-",
+        "email": "kk9032@srmist.edu.in",
+        "password": "fbdbb3a3311ddb942724f39bdfc92235fb60b38355748d3abf6900c3eff58744",
+        "phone": "917286971004",
+        "rfid": "-",
+        "username": "Kooturu Kanishk Reddy ",
+        "userreg": "RA2211003010870"
+      },
+      "917300146757": {
+        "address": "SRMIST Hotels",
+        "desig": "-",
+        "email": "dn8270@srmist.edu.in",
+        "password": "8a7d51ed2ce063d9cf24bd673d7b94cd7e173c81119075568f003dcd2d4045df",
+        "phone": "917300146757",
+        "rfid": "-",
+        "username": "Deepak Sharda",
+        "userreg": "RA2111004010077"
+      },
+      "917356805204": {
+        "address": "ROOM 728, M BLOCK, SRMIST, KATTANKULATHUR ",
+        "desig": "-",
+        "email": "la9146@srmist.edu.in",
+        "password": "a8bab619966d6f8e99f05053c2ccd433df8ee2762eaf1bb94a525fa000079fba",
+        "phone": "917356805204",
+        "rfid": "153231145101",
+        "username": "LIYA MARIA ALEX",
+        "userreg": "RA2211059010009"
+      },
+      "917376334488": {
+        "address": "Unnao, UP - 209801",
+        "desig": "-",
+        "email": "ib7540@srmist.edu.in",
+        "password": "940907847cf9f884d7561b69fccf2aa7ebca8c4c471959d30c71291ebf1d502f",
+        "phone": "917376334488",
+        "rfid": "-",
+        "username": "Ishaan Bajpai",
+        "userreg": "RA2311003010170"
+      },
+      "917575056840": {
+        "address": "Nelson Mandela 712",
+        "desig": "-",
+        "email": "ds9982@srmist.edu.in",
+        "password": "2d8bd0020a7fbfc10e95fdfaa36f32f9c93d3daed1bcba5588eb340d370f27f7",
+        "phone": "917575056840",
+        "rfid": "-",
+        "username": "Dev Sankesara ",
+        "userreg": "RA2211013010028 "
+      },
+      "917578994884": {
+        "address": "srmn nagar, boys hostel area, oori block ",
+        "desig": "-",
+        "email": "ad5062@srmist.edu.in",
+        "password": "1e05f81064338745bc431fc986b41ee7439b35ff4b714574b456963348b25cd8",
+        "phone": "917578994884",
+        "rfid": "-",
+        "username": "Ayushman Das",
+        "userreg": "RA2311004010609 "
+      },
+      "917760690678": {
+        "address": "1160 m block women's hostel SRM Kattankulathu",
+        "desig": "-",
+        "email": "sk7329@srmist.edu.in",
+        "password": "3b1a414bd5841cfd1dcbb2e77238f0015a3777d2fd03e9d823b9f5a58765db07",
+        "phone": "917760690678",
+        "rfid": "-",
+        "username": "Sakshi K",
+        "userreg": "RA2211036010027"
+      },
+      "917894035770": {
+        "address": "Aishwarya Apartment, kavanur Road, potheri ",
+        "desig": "-",
+        "email": "swetanshusbp@gmail.com",
+        "password": "9a586e79e5e4e91f2476b25b3b191d71567ce50361fa9e0c154d390b062fcc18",
+        "phone": "917894035770",
+        "rfid": "-",
+        "username": "Swetanshu Agrawal ",
+        "userreg": "RA2111026010260"
+      },
+      "918104179233": {
+        "address": "724, M block ",
+        "desig": "-",
+        "email": "ts2417@srmist.edu.in",
+        "password": "ae785caeaffe199fc57f8e03d79cf85f21ae3890d7d2c7ac27d3df5c6a516f73",
+        "phone": "918104179233",
+        "rfid": "-",
+        "username": "Tarushi Singh ",
+        "userreg": "RA2211004010145"
+      },
+      "918104532551": {
+        "address": "408,Meenakshi Ladies Hostel, SRMIST, Kattanku",
+        "desig": "-",
+        "email": "anushree.datta05@gmail.com",
+        "password": "121325fdb1806d87f96c4805e06bf8e45fc25cb02ad0430d47bc62ee5bcf4cb1",
+        "phone": "918104532551",
+        "rfid": "-",
+        "username": "Anushree Datta",
+        "userreg": "RA2311017010004"
+      },
+      "918153830293": {
+        "address": "Chennai",
+        "desig": "-",
+        "email": "msadriwala15@gmail.com",
+        "password": "5b540036810b4bd6197fbf7d4d459d43e9b75546b31bf556b88fd756c71b67da",
+        "phone": "918153830293",
+        "rfid": "89240141101",
+        "username": "Mohammed Sadriwala ",
+        "userreg": "RA2211013010082"
+      },
+      "918178080888": {
+        "address": "M-Block Hostel, SRM IST, Kattankulathur ",
+        "desig": "-",
+        "email": "grovertamanna1780@gmail.com",
+        "password": "581d43745726e0ee62911178bfb3887c3fe295d29eeb741f0e40f91e8a70907a",
+        "phone": "918178080888",
+        "rfid": "-",
+        "username": "Tamanna Grover",
+        "userreg": "RA2211003010376"
+      },
+      "918200642964": {
+        "address": "A-201 VGN Southern Avenue, Potheri ",
+        "desig": "-",
+        "email": "sb3154@srmist.edu.in",
+        "password": "bdb67a7c91ff4931d2adafe47256ae0fe9878d11e32ca5fd3a3d6d185700311f",
+        "phone": "918200642964",
+        "rfid": "-",
+        "username": "Smeet Bathani ",
+        "userreg": "RA2111004010292"
+      },
+      "918240075615": {
+        "address": "C-107 Abode Valley Potheri Kattankulathur TN",
+        "desig": "-",
+        "email": "pm7516@srmist.edu.in",
+        "password": "b7b5126a20a16a1339fb76e5a61372a961f9f8c14302e67fa80aeb3d2b8051fd",
+        "phone": "918240075615",
+        "rfid": "-",
+        "username": "Pracheta Mitra ",
+        "userreg": "RA2211053010031"
+      },
+      "918240118749": {
+        "address": "SANASSI A Room NO 401 SRM University Potheri ",
+        "desig": "-",
+        "email": "sb5776@srmist.edu.in",
+        "password": "1b14456154b01ffcb4403b3c58701026f76f746dad7bb76b6acce083e60fabda",
+        "phone": "918240118749",
+        "rfid": "-",
+        "username": "Swapnanil Bankura ",
+        "userreg": "RA2211003010439"
+      },
+      "918264629600": {
+        "address": "1107 Estancia",
+        "desig": "-",
+        "email": "nikitmathur2525@gmail.com",
+        "labs": {
+          "604": {
+            "labname": "ROBOCON",
+            "labnum": "604"
+          }
+        },
+        "password": "0539a36b4e8d60d4171b33e38c95ade25efb092795ff2d1de74276f946ae5986",
+        "phone": "918264629600",
+        "rfid": "-",
+        "username": "Nikit Mathur",
+        "userreg": "RA2111003010124"
+      },
+      "918489011801": {
+        "address": "SRM HOSTELS, POTHERI, TAMIL NADU, INDIA",
+        "desig": "ADMIN",
+        "email": "ab0667@srmist.edu.in",
+        "labs": {
+          "2": {
+            "labname": "HOSTEL D 112",
+            "labnum": "2"
+          },
+          "604": {
+            "labname": "ROBOCON",
+            "labnum": "604"
+          }
+        },
+        "password": "0b8233d51a8d6abecef6bfc7d16759f05eb72a297e42b0fe2569df338d970a1e",
+        "phone": "918489011801",
+        "rfid": "2178150101",
+        "username": "AMSHU KIRAN BELBASE",
+        "userreg": "RA2211033010195"
+      },
+      "918532002474": {
+        "address": "UP",
+        "desig": "-",
+        "email": "sj7513@srmist.edu.in",
+        "password": "1a919146693dab311491933f6ecccfc9e9507e089eb041a4847a51dbe5101511",
+        "phone": "918532002474",
+        "rfid": "-",
+        "username": "Siddhant Jain",
+        "userreg": "RA2311042010069"
+      },
+      "918805393204": {
+        "address": "Pune, Maharashtra",
+        "desig": "-",
+        "email": "tv7325@srmist.edu.in",
+        "password": "f68d53f21fa44587fbd1cedc6a74a84eaf8ad9c8c8a251bce8f550802dde556e",
+        "phone": "918805393204",
+        "rfid": "-",
+        "username": "Tanisha Patel",
+        "userreg": "RA2311018010006"
+      },
+      "918805696853": {
+        "address": "J408 ABODE VALLEY",
+        "desig": "-",
+        "email": "af3765@srmist.edu.in",
+        "password": "0cec7060d67c04fed83303d3635c7a4e9a4225dc79fc78f0e5748dd9e0a4fe7d",
+        "phone": "918805696853",
+        "rfid": "579813993",
+        "username": "Abuzer Ganjifrockwala",
+        "userreg": "RA2111018010028"
+      },
+      "918816099911": {
+        "address": "Srm institute of science and technology ",
+        "desig": "-",
+        "email": "sa2414@srmist.edu.in",
+        "password": "4c735fda8c6d6bdb5930547c60f2b2e8be946881e1324e6fea85eebc86870670",
+        "phone": "918816099911",
+        "rfid": "-",
+        "username": "Shaurya Awasthi",
+        "userreg": "RA2211003010438"
+      },
+      "918825128387": {
+        "address": "P405, Abode Valley, Potheri, 603203",
+        "desig": "-",
+        "email": "aa4866@srmist.edu.in",
+        "password": "dea6ff3bbe6aa00b11e79e42c8c94d4dbc0eb185b07fa9ff30e5823a5775136b",
+        "phone": "918825128387",
+        "rfid": "-",
+        "username": "Akhil Anil",
+        "userreg": "RA2211038010018"
+      },
+      "918879376413": {
+        "address": "G-301,Abode Valley,Near Kakkan Street,Potheri",
+        "desig": "-",
+        "email": "vs9887@srmist.edu.in",
+        "password": "4a0e399210830613df31c6f824ef17ca412ca61b07e09aea9d57a63c611ba760",
+        "phone": "918879376413",
+        "rfid": "-",
+        "username": "Vijay Srikrishnan ",
+        "userreg": "RA2111002010094"
+      },
+      "919019286134": {
+        "address": "603203 Periyar street srm green pearl",
+        "desig": "-",
+        "email": "sm1074@srmist.edu.in",
+        "password": "f2a884f936d49e8ac9ecd4e5f2d371b7c288bb6d8e258070e2664e44281e7164",
+        "phone": "919019286134",
+        "rfid": "-",
+        "username": "Sanjeevini  arvind mekin",
+        "userreg": "RA2211067010010"
+      },
+      "919025232970": {
+        "address": "Chennai 603203",
+        "desig": "-",
+        "email": "dj7482@srmist.edu.in",
+        "password": "8c2a5da1ed4e83ca0e368d6a910dbb4c9239881d51b4006d3a4be6b8fc8e5794",
+        "phone": "919025232970",
+        "rfid": "16934139101",
+        "username": "Daniel Biju Joseph",
+        "userreg": "RA2211043010043"
+      },
+      "919103135641": {
+        "address": "312, Sannasi A , SRMIST, Srm anagar ",
+        "desig": "-",
+        "email": "vermakrrish804@gmail.com",
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "phone": "919103135641",
+        "rfid": "-",
+        "username": "Krrish Verma",
+        "userreg": "RA2211004010514"
+      },
+      "919104440850": {
+        "address": "Srm",
+        "desig": "-",
+        "email": "sp3658@srmist.edu.in",
+        "password": "317c7c81f19a67109b02a20e00985762d59feb9427eb731f142a653deda8df29",
+        "phone": "919104440850",
+        "rfid": "23316254108",
+        "username": "Smit Prajapati",
+        "userreg": "RA2311038010004"
+      },
+      "919110590876": {
+        "address": "A-608, BRIGADE ALTAMONT, KOTHANUR",
+        "desig": "-",
+        "email": "aryanbali1710@gmail.com",
+        "password": "5b8a02d5f28750626998d0aff6c061cbc973474c4026da6c61b085795d35def6",
+        "phone": "919110590876",
+        "rfid": "18517915693",
+        "username": "Aryan Bali",
+        "userreg": "RA2111026010510"
+      },
+      "919123377947": {
+        "address": "A-203-204, Dahlia Raheja Gardens, Wanowarie, ",
+        "desig": "-",
+        "email": "harshulbagri@gmail.com",
+        "password": "1b9861de520143c1714e5fc133594b13f9916bcecbe505734d9bf3cab9ce2876",
+        "phone": "919123377947",
+        "rfid": "-",
+        "username": "Harshul Bagri",
+        "userreg": "RA2311003010629"
+      },
+      "919158118118": {
+        "address": "912 Manoranjitham",
+        "desig": "-",
+        "email": "ak5980@srmist.edu.in",
+        "password": "a47b2b954a9f7b36b314d82551629dfaf5334ecf8bbc0f0e8d7edfc35a49eb61",
+        "phone": "919158118118",
+        "rfid": "",
+        "username": "Anshul Kawarey",
+        "userreg": "RA2211033010168"
+      },
+      "919168673092": {
+        "address": "M Block, SRM Hostels, Kattankulathur, Chennai",
+        "desig": "-",
+        "email": "agamjotkaurc001@gmail.com",
+        "password": "f7c23c524f14897380818fe0a837d88b163abeba1a376ca1537ab066bdcb7b27",
+        "phone": "919168673092",
+        "rfid": "-",
+        "username": "Agamjot Kaur Choudhary ",
+        "userreg": "RA2311026010681"
+      },
+      "919372703422": {
+        "address": "SRM nagar Pillayar Koil Street SRM Nagar",
+        "desig": "-",
+        "email": "dv0892@srmist.edu.in",
+        "password": "ba8b3393947777fa15460dcf7f6d5f22c6ed1ad967aa2632cdfb463a286ac4cc",
+        "phone": "919372703422",
+        "rfid": "-",
+        "username": "Divya Sai Aamuktha Pelluri",
+        "userreg": "RA2111003011238"
+      },
+      "919444435407": {
+        "address": "chennai",
+        "desig": "-",
+        "email": "joselinr@srmist.edu.in",
+        "password": "b252f884282ab8e092e5ab0d5c3aa8649ac898a7b7d4f56cf11875d3509a53db",
+        "phone": "919444435407",
+        "rfid": "205263276",
+        "username": "Joselin",
+        "userreg": ""
+      },
+      "919474182596": {
+        "address": "SRM",
+        "desig": "-",
+        "email": "dj2037@srmist.edu.in",
+        "password": "510001487bf2c73dc461729cf6537789191509872a2a790f8c5862e80b26b931",
+        "phone": "919474182596",
+        "rfid": "249224147101",
+        "username": "Diptayan Jash",
+        "userreg": "RA2211003010890"
+      },
+      "919686685002": {
+        "address": "Sannasi -  A",
+        "desig": "-",
+        "email": "ny9092@srmist.edu.in",
+        "password": "89b79baca3513d43b745c2794e601c8d861b1db20c76b8dc9efd8a71911b614c",
+        "phone": "919686685002",
+        "rfid": "20168139101",
+        "username": "Nagesh Yenigalla ",
+        "userreg": "RA2211038010010"
+      },
+      "919811787571": {
+        "address": "H306, Abode Valley",
+        "desig": "-",
+        "email": "mayankbajaj2006@gmail.com",
+        "password": "024aaf2045e9bf46e547399e7e16c4b25a98a109a354a008301c4aefdfc86168",
+        "phone": "919811787571",
+        "rfid": "-",
+        "username": "Mayank Bajaj",
+        "userreg": "RA2311033010077"
+      },
+      "919820492211": {
+        "address": "Wakad, Pune-411057",
+        "desig": "-",
+        "email": "am3254@srmist.edu.in",
+        "password": "ab85508f0ed8b8b7502a99fdd934627955c3d998fcffd8220a7bfa8565cc0268",
+        "phone": "919820492211",
+        "rfid": "-",
+        "username": "Aniruddh Mathur",
+        "userreg": "RA2211027010098"
+      },
+      "919871632168": {
+        "address": "Nelson Mandela Hostel, SRMIST Hostels, SRMIST",
+        "desig": "-",
+        "email": "arnav.agr27@gmail.com",
+        "password": "44e8298c3dfcc139009674557279a407cf7e41d2203df81059481d9405431327",
+        "phone": "919871632168",
+        "rfid": "-",
+        "username": "Arnav Agrawal",
+        "userreg": "RA2211026010096"
+      },
+      "919888952808": {
+        "address": "Oori-911, srm ktr",
+        "desig": "-",
+        "email": "varun29.vm@gmail.com",
+        "password": "1b1f3aa4a68f188ba829634e3aec36894282c03c4ddc58d07733c932a8957560",
+        "phone": "919888952808",
+        "rfid": "-",
+        "username": "Varun Menon ",
+        "userreg": "RA2311026010648"
+      },
+      "919892652935": {
+        "address": "707, M Block, SRM University, Kattankulathur",
+        "desig": "-",
+        "email": "ss5702@srmist.edu.in",
+        "password": "b712d708105dad07956496c52af5e9bf2233ccd381bcf87f102d28184db078f6",
+        "phone": "919892652935",
+        "rfid": "-",
+        "username": "Siddhima Singh ",
+        "userreg": "RA2211027010145"
+      },
+      "919903731824": {
+        "address": "Abode valley , Potheri ",
+        "desig": "-",
+        "email": "ss4045@srmist.edu.in",
+        "password": "065779b2f31d229a7167fe7f37cacd1763f3889b1be4a8c713be3251893d1836",
+        "phone": "919903731824",
+        "rfid": "-",
+        "username": "Shohon Saha",
+        "userreg": "RA2211018010044"
+      },
+      "919958672818": {
+        "address": "528-Paari hostel SRMIST",
+        "desig": "-",
+        "email": "ns1718@srmist.edu.in",
+        "password": "d4cfaae114abe89112d8b3feb72b541a8a131c749f05e97e90531b799e957af0",
+        "phone": "919958672818",
+        "rfid": "-",
+        "username": "Namit Singh ",
+        "userreg": "RA2311038010022"
+      }
+    }
+  }
+}
