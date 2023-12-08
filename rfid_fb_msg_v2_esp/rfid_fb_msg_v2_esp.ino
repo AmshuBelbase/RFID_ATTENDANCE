@@ -1,3 +1,5 @@
+// RELAY
+// GPIO26
 //RFID PINS
 // MOSI-23
 // MISO-19
@@ -155,6 +157,7 @@ void setup() {
   SPI.begin();      // Init SPI bus
   rfid.PCD_Init();  // Init MFRC522
   randomSeed(analogRead(0)); 
+  pinMode(26, OUTPUT);
   delay(100);
 }
 
@@ -369,6 +372,7 @@ void getLabNum(){
 }
 
 void loop() { 
+  digitalWrite(26, HIGH);
   while(WiFi.status() != WL_CONNECTED){ 
     lcd.clear();
     lcd.setCursor(2, 0);
@@ -459,6 +463,10 @@ void loop() {
         Serial.print("Detected user is :");
         Serial.println(detectedName);
         lcd.println(detectedName);
+        digitalWrite(26, LOW); // GPIO26 for relay
+        delay(5000);
+        digitalWrite(26, HIGH); // GPIO26 for relay
+
       }
       else{
         lcd.clear();
