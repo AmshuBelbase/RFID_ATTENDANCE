@@ -1,5 +1,5 @@
-#include<HardwareSerial.h>
-HardwareSerial sim(1);
+#include<SoftwareSerial.h>
+SoftwareSerial sim(1);
 int _timeout;
 String _buffer;
 String number = "+916260439660"; //-> change with your number

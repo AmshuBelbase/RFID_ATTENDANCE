@@ -11,7 +11,7 @@
 
 //KEYPAD
 // ROWS - 15, 2, 0, 4
-// COLUMNS - 16, 25, 5, 17
+// COLUMNS - 16, 25, 5, 17  // 4 and 25 swapped 4 for column and 25 for row
 
 //GSM MODULE
 // 27-rx1 of esp, 14-tx1 of esp
@@ -174,6 +174,7 @@ void SendMessage(String recipientPhoneNumber, String message)
   _buffer = _readSerial();
   Serial.println(_buffer);
 }
+
 String _readSerial() {
   _timeout = 0;
   while  (!sim.available() && _timeout < 12000  )
