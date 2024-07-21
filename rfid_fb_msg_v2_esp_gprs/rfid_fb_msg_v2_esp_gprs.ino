@@ -292,7 +292,8 @@ void setup() {
   sendGSM("AT+SAPBR=1,1",3000);
   sendGSM("AT+HTTPINIT");  
   sendGSM("AT+HTTPPARA=\"CID\",1");
-  sendGSM("AT+HTTPPARA=\"URL\",\"http://smartamshu.000webhostapp.com/get_unixtime.php\"");
+  // sendGSM("AT+HTTPPARA=\"URL\",\"http://smartamshu.000webhostapp.com/get_unixtime.php\"");
+  sendGSM("AT+HTTPPARA=\"URL\",\"http://worldtimeapi.org/api/timezone/Asia/Kolkata\"");
   sendGSM("AT+HTTPACTION=0"); 
   lcd.clear();
   lcd.setCursor(0, 0);
@@ -303,13 +304,28 @@ void setup() {
     while(GSM.available()) {
       parseATText(GSM.read());
     }
-  } 
-  char buf[12];
-  epochTime.toCharArray(buf, 12);
-  for(int i=0; i<epochTime.length(); i++){
+  }
+
+  // char buf[150];
+  // epochTime.toCharArray(buf, 150);
+
+  char buf[50];
+  int length = epochTime.length(); // Get the length of the epochTime string
+
+  // Calculate the starting position to get the last 100 characters
+  int startPos = max(0, length - 110); 
+
+  // Copy the last 100 characters (or fewer) to buf
+  epochTime.substring(startPos).toCharArray(buf, 50);
+
+  Serial.print("buffer variable:");
+  Serial.println(buf);
+  for(int i=0; i<epochTime.length(); i++){ 
     val = val*10 + (buf[i] - '0');
   }
-  Serial.print(val);
+
+  Serial.print("Val");
+  Serial.println(val);
 
   _buffer.reserve(50);
   delay(1000);
