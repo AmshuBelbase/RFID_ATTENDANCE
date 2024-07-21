@@ -84,8 +84,6 @@ if (isset($_POST['log_out'])) {
             onValue(starCountRef, (snapshot) => {
                 const data = snapshot.val();
                 if (data != null) {
-                    // console.log(data);
-                    // document.getElementById("tab_con").innerHTML = JSON.stringify(data);
 
                     for (const nodeKey in data) {
                         var htmlt = "";
@@ -158,7 +156,11 @@ if (isset($_POST['log_out'])) {
                         }
                     }
                 }
+                if (html == "") {
+                    document.getElementById("waitmsg").innerHTML = "No Data to Show 👾";
+                }
             });
+
         }
 
         setInterval(() => {
