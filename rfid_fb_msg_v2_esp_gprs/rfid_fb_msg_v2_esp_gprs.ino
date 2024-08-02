@@ -72,6 +72,7 @@ MFRC522::MIFARE_Key key;
 String tag;
 
 // OTP
+bool scan_flag = true;
 String otp = "3928584";
 String password = "";  // Variable to store the entered password
 String labNum = "";  // Variable to store the entered lab Number
@@ -84,14 +85,22 @@ long val = 0;
 const byte ROWS = 4;  //four rows
 const byte COLS = 4;  //four columns
 //define the symbols on the buttons of the keypads
+// char keys[ROWS][COLS] = {
+//   { '1', '2', '3', 'A' },
+//   { '4', '5', '6', 'B' },
+//   { '7', '8', '9', 'C' },
+//   { '*', '0', '#', 'D' }
+// };
+
 char keys[ROWS][COLS] = {
-  { '1', '2', '3', 'A' },
-  { '4', '5', '6', 'B' },
-  { '7', '8', '9', 'C' },
-  { '*', '0', '#', 'D' }
+  { '1', '4', '7', '*' },
+  { '2', '5', '8', '0' },
+  { '3', '6', '9', '#' },
+  { 'A', 'B', 'C', 'D' }
 };
-byte rowPins[ROWS] = { 15, 2, 0, 4 };
-byte colPins[COLS] = { 16, 25, 5, 17 };
+
+byte rowPins[ROWS] = { 5, 17, 16, 4 };
+byte colPins[COLS] = { 0, 2, 15, 25 };
 
 //initialize an instance of class NewKeypad
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS); 
@@ -320,12 +329,25 @@ void setup() {
 
   Serial.print("buffer variable:");
   Serial.println(buf);
-  for(int i=0; i<epochTime.length(); i++){ 
-    val = val*10 + (buf[i] - '0');
-  }
 
-  Serial.print("Val");
+  String input = String(buf); 
+  int startIndex = input.indexOf("unixtime\":") + 10; // 10 is the length of "unixtime\":"
+  int endIndex = input.indexOf(",", startIndex);
+  String unixTimeString = input.substring(startIndex, endIndex);
+  // Serial.println(unixTimeString);
+  long unixTime = unixTimeString.toInt();
+  val = unixTime;
   Serial.println(val);
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print(val);
+  delay(3000);
+  // for(int i=0; i<epochTime.length(); i++){ 
+  //   val = val*10 + (buf[i] - '0');
+  // }
+
+  // Serial.print("Val");
+  // Serial.println(val);
 
   _buffer.reserve(50);
   delay(1000);
@@ -347,10 +369,10 @@ void setup() {
   rfid.PCD_Init();  // Init MFRC522
   randomSeed(analogRead(0)); 
   delay(100);
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print("Lab Number : ");
   while(labMode){ 
-    lcd.clear();
-    lcd.setCursor(0, 0);
-    lcd.print("Lab Number : ");
     // Serial.println("Lab Number : ");
     getLabNum();  
   }
@@ -612,28 +634,37 @@ void getLabNum(){
     } else if (labMode) {
       // If in Lab mode, add the key to the labNum
       labNum += key;
+      lcd.setCursor(2, 1); 
+      lcd.print(labNum); 
     }
   }
-  lcd.setCursor(2, 1);
-  lcd.print(labNum); 
+
   // Serial.println(labNum); 
   return ;
 }
 
 void loop() { 
-  if(epochTime!=""){  
-    lcd.clear();
-    lcd.setCursor(2, 0);
-    lcd.print("Scan ID"); 
+  if(epochTime!=""){
+    if (scan_flag == true){
+      lcd.clear();
+      lcd.setCursor(2, 0);
+      lcd.print("Scan ID");
+    }  
+ 
     
     //RFID READING
     if (!rfid.PICC_IsNewCardPresent()){
       // Serial.println("No card");
       delay(100);
+      scan_flag = false;
       return;
     }
     if (rfid.PICC_ReadCardSerial()) {
+      scan_flag = true;
       Serial.print("card found");
+      lcd.clear();
+      lcd.setCursor(0, 0);
+      lcd.print("Card Found");
       for (byte i = 0; i < 4; i++) {
         tag += rfid.uid.uidByte[i];
       }
