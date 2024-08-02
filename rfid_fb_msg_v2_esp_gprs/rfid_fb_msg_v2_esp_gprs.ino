@@ -73,6 +73,7 @@ String tag;
 
 // OTP
 bool scan_flag = true;
+bool send_otp = false;
 String otp = "3928584";
 String password = "";  // Variable to store the entered password
 String labNum = "";  // Variable to store the entered lab Number
@@ -338,10 +339,10 @@ void setup() {
   long unixTime = unixTimeString.toInt();
   val = unixTime;
   Serial.println(val);
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print(val);
-  delay(3000);
+  // lcd.clear();
+  // lcd.setCursor(0, 0);
+  // lcd.print(val);
+  // delay(3000);
   // for(int i=0; i<epochTime.length(); i++){ 
   //   val = val*10 + (buf[i] - '0');
   // }
@@ -369,6 +370,33 @@ void setup() {
   rfid.PCD_Init();  // Init MFRC522
   randomSeed(analogRead(0)); 
   delay(100);
+
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print("Send OTP ?");
+  lcd.setCursor(0, 1);
+  lcd.print("A - Yes, B - No");
+
+  while (true){
+    char otp_key = keypad.getKey();
+    if (otp_key) {
+      if (otp_key == 'A') {
+        send_otp = true;
+        lcd.clear();
+        lcd.setCursor(0, 0);
+        lcd.print("OTP will be sent.");
+        break;
+      }
+      if (otp_key == 'B') {
+        send_otp = false;
+        lcd.clear();
+        lcd.setCursor(0, 0);
+        lcd.print("OTP won't be sent.");
+        break;
+      }
+    }
+  }
+
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("Lab Number : ");
@@ -485,9 +513,6 @@ bool GetFirebase(const char* method, const String & path ,  HttpClient* http, St
           return false;
       }
       detectedPhone = keyph;
-      lcd.clear();
-      lcd.setCursor(2, 0);
-      lcd.print("Sending OTP .. ");
       if (!http->connected())
       {
         Serial.println();
@@ -722,28 +747,37 @@ void loop() {
         //SEND MESSAGE TO THE RFID HOLDER
         String number = phone;
         // Serial.println(number); 
-        String m = "Robocon Attendance Pin : "+otp;
-        send_msg(number, m);
 
-        // Reset the OTP mode flag
-        otpMode = false;
+        if (send_otp == true){
+          lcd.clear();
+          lcd.setCursor(2, 0);
+          lcd.print("Sending OTP .. ");
+          String m = "Robocon Attendance OTP : "+otp;
+          send_msg(number, m);
 
-        //TAKING INPUT FROM THE KEYPAD
-        lcd.clear();
-        lcd.setCursor(2, 0);
-        lcd.print("Enter Pin:");
-        // Serial.print("Enter OTP:");
-        lcd.setCursor(1, 1);
-        while (!otpMode) {
-          enteredOTP = getinput();
-          // Serial.println("Entered : "+enteredOTP);
-          if (enteredOTP == otp) {
-            flag = 1;
+          // Reset the OTP mode flag
+          otpMode = false;
+
+          //TAKING INPUT FROM THE KEYPAD
+          lcd.clear();
+          lcd.setCursor(2, 0);
+          lcd.print("Enter Pin:");
+          // Serial.print("Enter OTP:");
+          lcd.setCursor(1, 1);
+          while (!otpMode) {
+            enteredOTP = getinput();
+            // Serial.println("Entered : "+enteredOTP);
+            if (enteredOTP == otp) {
+              flag = 1;
+            }
+            else{
+              flag = 2;
+            }
           }
-          else{
-            flag = 2;
-          }
+        }else{
+          flag = 1;
         }
+
         password = "";
         enteredOTP = "";
       } else{
