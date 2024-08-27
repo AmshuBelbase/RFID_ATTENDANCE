@@ -368,7 +368,7 @@ void setup() {
   Serial.println("Connected");
   SPI.begin();      // Init SPI bus
   rfid.PCD_Init();  // Init MFRC522
-  randomSeed(analogRead(0)); 
+  randomSeed(analogRead(10)); 
   delay(100);
 
   lcd.clear();
