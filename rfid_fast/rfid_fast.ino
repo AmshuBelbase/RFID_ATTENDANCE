@@ -51,8 +51,8 @@ NTPClient timeClient(ntpUDP);
 unsigned long epochTime = 0; 
  
 //WIFI
-String ssid = "AB195";//"PROJECT_EVA";
-String pass = "12345678";//"@SRMTEAMROBOCON";
+String ssid = "PROJECT_EVA";//"PROJECT_EVA";
+String pass = "@SRMTEAMROBOCON";//"@SRMTEAMROBOCON";
 
 
 //DISPLAY
@@ -534,7 +534,7 @@ void loop() {
             enpass = "";
             lcd.clear();
             lcd.setCursor(0, 0);
-            lcd.print("Enter Password:");
+            lcd.print("Force Password:");
             if(key == 'B'){
               break;
             }
@@ -635,6 +635,41 @@ void loop() {
           lcd.setCursor(0, 0);
           lcd.print("Connecting WiFi");
           break;
+        }
+        // force open
+        if (yes_no_key == 'C') {
+          String enpass = "";
+          while(true){
+            char key = keypad.getKey();
+            if (key) {
+              if (key == 'C' || key == 'B') {
+                enpass = "";
+                lcd.clear();
+                lcd.setCursor(0, 0);
+                lcd.print("Force Password:");
+                if(key == 'B'){
+                  break;
+                }
+              }
+              else if (key == 'D') {  
+                lcd.setCursor(2, 1);
+                lcd.print(enpass);
+                Serial.print("Password : ");
+                Serial.println(enpass); 
+                break;
+              }else{
+                enpass += key;
+                lcd.setCursor(2, 1); 
+                lcd.print(enpass); 
+              }
+            }
+          }
+          if(enpass == "15151045"){
+            lcd.setCursor(2, 1);
+            lcd.print("Force Open");
+            digitalWrite(26, HIGH); // GPIO26 for relay
+            delay(2000);
+          }
         }
       }
       break;
