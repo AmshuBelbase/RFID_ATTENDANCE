@@ -17,9 +17,9 @@ function smtp_mailer($to, $subject, $msg)
     $mail->Port = 587;
     $mail->IsHTML(true);
     $mail->CharSet = 'UTF-8';
-    $mail->Username = "amshuacc2@gmail.com";
-    $mail->Password = "okyocxsujzwliqnd";
-    $mail->SetFrom("amshuacc2@gmail.com");
+    $mail->Username = "@gmail.com"; //gmail
+    $mail->Password = ""; //psd
+    $mail->SetFrom("@gmail.com"); //gmail
     $mail->Subject = $subject;
     $msgg = "Enter this OTP : $msg";
     $mail->Body = $msgg;

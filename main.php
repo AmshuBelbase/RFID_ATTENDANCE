@@ -62,13 +62,13 @@ if (isset($_POST['log_out'])) {
         } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js";
 
         const firebaseConfig = {
-            apiKey: "AIzaSyCWnDZNJqlgWq-A1OFjb6c-kYAj6IDi630",
-            authDomain: "narcs-1805c.firebaseapp.com",
-            databaseURL: "https://narcs-1805c.firebaseio.com",
-            projectId: "narcs-1805c",
-            storageBucket: "narcs-1805c.appspot.com",
-            messagingSenderId: "83689842797",
-            appId: "1:83689842797:web:c1cc6cf94f28b7dadf3764"
+            apiKey: "api key",
+            authDomain: "authDomain",
+            databaseURL: "databaseURL",
+            projectId: "projectId",
+            storageBucket: "storageBucket",
+            messagingSenderId: "messagingSenderId",
+            appId: "appId"
         };
 
         // Initialize Firebase
